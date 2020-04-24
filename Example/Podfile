@@ -1,0 +1,13 @@
+#use_frameworks!
+
+platform :ios, '9.0'
+
+target 'LKADSDK_Example' do
+  pod 'LKADSDK', :path => '../'
+
+  target 'LKADSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

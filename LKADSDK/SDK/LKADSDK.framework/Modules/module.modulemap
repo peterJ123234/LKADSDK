@@ -1,0 +1,6 @@
+framework module LKADSDK {
+  umbrella header "LKADSDK.h"
+
+  export *
+  module * { export * }
+}
