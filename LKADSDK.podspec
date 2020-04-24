@@ -8,17 +8,17 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LKADSDK'
-  s.version          = '2.4.0.21'
+  s.version          = '2.4.0.22'
   s.summary          = 'LKADSDK is a SDK providing union AD service.'
 
   s.description      = <<-DESC
 LKADSDK provides Union ADs which include native、banner、feed、splash、RewardVideo etc.
                        DESC
 
-  s.homepage         = 'http://git.madanglu.top/open/LKADSDK'
+  s.homepage         = 'https://github.com/peterJ123234/lkadsdk'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wb' => 'daasan123@163.com' }
-  s.source           = { :git => 'ssh://git@git.madanglu.top:51000/open/LKADSDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/peterJ123234/lkadsdk.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
   
