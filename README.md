@@ -22,7 +22,7 @@ pod 'LKADSDK'
 
 ## Author
 
-PeterJames4719, daasan123@163.com
+peterwu@bloomadtech.com
 
 ## License
 
