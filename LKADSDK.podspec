@@ -17,7 +17,7 @@ LKADSDK provides Union ADs which include native、banner、feed、splash、Rewar
 
   s.homepage         = 'https://github.com/peterJ123234/lkadsdk'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'peterwu' => 'peterwu@bloomadtech.com' }
+  s.author           = { 'Peter' => 'peterwu@bloomadtech.com' }
   s.source           = { :git => 'https://github.com/peterJ123234/lkadsdk.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
