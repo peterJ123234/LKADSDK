@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LKADSDK'
-  s.version          = '2.4.1.12'
+  s.version          = '2.4.3.11'
   s.summary          = 'LKADSDK is a SDK providing union AD service.'
 
   s.description      = <<-DESC

@@ -15,7 +15,7 @@
 
 
 @interface LKADSDKApi : NSObject
-/**当前：2.4.1(1)
+/**当前：2.4.3(1)
  * @return SDK 版本，如，1.0.0(1)
  */
 + (NSString *)sdkVersion;
@@ -93,8 +93,9 @@
  * @param ratio banner宽高比例
  * @param vc 广告展示基于的viewController
  * @param delegate 回调代理
+ * @param interval 轮播的间隔 30-120（单位：秒）
  */
-+ (LKADBannerAdView *)bannerAdViewWithFrame:(CGRect)frame bannerRadio:(LKADBannerAdRatio)ratio viewController:(UIViewController *)vc delegate:(id<LKADSDKBannerAdCallbackDelegate>)delegate;
++ (LKADBannerAdView *)bannerAdViewWithFrame:(CGRect)frame bannerRadio:(LKADBannerAdRatio)ratio viewController:(UIViewController *)vc delegate:(id<LKADSDKBannerAdCallbackDelegate>)delegate interval:(NSInteger)interval;
 
 /**
 * 获取横幅广告
@@ -103,8 +104,9 @@
 * @param ratio banner宽高比例
 * @param vc 广告展示基于的viewController
 * @param delegate 回调代理
+* @param interval 轮播的间隔 30-120（单位：秒）
 */
-+ (LKADBannerAdView *)multiSourceBannerAdViewWithFrame:(CGRect)frame bannerRadio:(LKADBannerAdRatio)ratio viewController:(UIViewController *)vc delegate:(id<LKADSDKBannerAdCallbackDelegate>)delegate;
++ (LKADBannerAdView *)multiSourceBannerAdViewWithFrame:(CGRect)frame bannerRadio:(LKADBannerAdRatio)ratio viewController:(UIViewController *)vc delegate:(id<LKADSDKBannerAdCallbackDelegate>)delegate interval:(NSInteger)interval;
 
 #pragma mark - 插屏广告
 
