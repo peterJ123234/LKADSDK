@@ -85,6 +85,13 @@ typedef NS_ENUM(NSInteger, LKADInterstitialAdSize) {
 - (void)lk_adSDKNewsDetailDidLoadSuccessWithInfo:(NSDictionary *)info countDownView:(UIView<LKADCountDownViewProtocol> *)countDownView;
 
 /**
+* SDK 资讯详情关闭
+* @param info 包含 url、type
+*
+*/
+- (void)lk_adSDKNewsDetailDidCloseWithInfo:(NSDictionary *)info;
+
+/**
 * SDK 资讯详情倒计时结束
 * @param countDownView 倒计时视图实例
 * @param info 包含 url、type
