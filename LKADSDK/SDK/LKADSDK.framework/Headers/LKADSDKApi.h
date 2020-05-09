@@ -15,7 +15,7 @@
 
 
 @interface LKADSDKApi : NSObject
-/**当前：2.4.4(2)
+/**当前：2.4.4(3)
  * @return SDK 版本，如，1.0.0(1)
  */
 + (NSString *)sdkVersion;
@@ -133,7 +133,7 @@
 /**
  * 释放Draw视频广告资源
  */
-+ (void)endDrawVideoAd;
++ (void)cleanDrawVideoAd;
 @end
 
 
