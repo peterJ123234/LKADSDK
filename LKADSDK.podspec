@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LKADSDK'
-  s.version          = '2.4.4.31'
+  s.version          = '2.4.5.11'
   s.summary          = 'LKADSDK is a SDK providing union AD service.'
 
   s.description      = <<-DESC
@@ -25,7 +25,7 @@ LKADSDK provides Union ADs which include native、banner、feed、splash、Rewar
   s.vendored_frameworks = 'LKADSDK/SDK/LKADSDK.framework'
   s.resource = 'LKADSDK/SDK/LKADSDKBundle.bundle'
 
-  s.dependency 'AFNetworking', '~> 3.2.1'
+  s.dependency 'AFNetworking'
   s.dependency 'SDWebImage'
   s.dependency 'MJExtension'
   s.dependency 'ReactiveObjC', '3.0.0'

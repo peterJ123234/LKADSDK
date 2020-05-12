@@ -15,7 +15,7 @@
 
 
 @interface LKADSDKApi : NSObject
-/**当前：2.4.4(3)
+/**当前：2.4.5(1)
  * @return SDK 版本，如，1.0.0(1)
  */
 + (NSString *)sdkVersion;
