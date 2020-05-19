@@ -156,4 +156,41 @@ typedef NS_ENUM(NSInteger, LKADInterstitialAdSize) {
 - (void)lk_adSDKInterstitialAdCallbackWithEvent:(LKADSDKInterstitialAdCallbackEvent)event error:(NSError *)error andInfo:(NSDictionary *)info;
 @end
 
+#pragma mark - 原生模板广告回调
+
+@protocol LKADNativeExpressAdDelegete <NSObject>
+
+@required
+/**
+ * 拉取原生模板广告成功/失败
+ */
+- (void)lk_adSDKNativeExpressAdFinishLoad:(NSArray<id<LKADNativeExpressAdProtocol>> *)ads error:(NSError *)error;
+
+@optional
+/**
+ * 原生模板广告渲染成功, 此时的 nativeExpressAdView.size.height 根据 size.width 完成了动态更新。
+ */
+- (void)lk_adSDKNativeExpressAdViewRenderSuccess:(id<LKADNativeExpressAdProtocol>)ad;
+
+/**
+ * 原生模板广告渲染失败
+ */
+- (void)lk_adSDKNativeExpressAdViewRenderFail:(id<LKADNativeExpressAdProtocol>)ad;
+
+/**
+ * 原生模板广告曝光回调
+ */
+- (void)lk_adSDKNativeExpressAdViewWillShow:(id<LKADNativeExpressAdProtocol>)ad;
+
+/**
+ * 原生模板广告点击回调
+ */
+- (void)lk_adSDKNativeExpressAdViewClicked:(id<LKADNativeExpressAdProtocol>)ad;
+
+/**
+ * 原生模板广告被关闭
+ */
+- (void)lk_adSDKNativeExpressAdViewClosed:(id<LKADNativeExpressAdProtocol>)ad reason:(NSString *)reason;
+@end
+
 #endif /* LKADSDKCallbackDelegate_h */

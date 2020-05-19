@@ -9,6 +9,8 @@
 #ifndef LKADSDKProtocols_h
 #define LKADSDKProtocols_h
 
+#pragma mark - 资讯
+
 @protocol LKADCountDownViewDelegate <NSObject>
 - (void)countDownViewDidStart:(UIView *)view;
 - (void)countDownViewDidTimeout:(UIView *)view;
@@ -25,8 +27,20 @@
 - (void)showRewardWithInfo:(NSString *)info;
 @end
 
-@protocol  LKADSplashAdViewProtocol <NSObject>
-- (void)loadAdData;
+#pragma mark - 原生模板
+
+@protocol LKADNativeExpressAdDelegete;
+@protocol LKADNativeExpressAdManagerProtocol <NSObject>
+- (void)loadNativeExpressAdWithCount:(NSInteger)count delegate:(id<LKADNativeExpressAdDelegete>)delegate;
+
+@end
+
+@protocol  LKADNativeExpressAdProtocol <NSObject>
+@property (nonatomic, weak, readwrite) UIViewController *viewController;
+@property (nonatomic, strong, readonly) NSString *adId;
+@property (nonatomic, strong, readonly) UIView *adView;
+@property (nonatomic, strong, readonly) NSNumber *adHeight;
+- (void)render;
 @end
 
 

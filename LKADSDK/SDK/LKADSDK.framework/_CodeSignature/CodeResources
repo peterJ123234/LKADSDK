@@ -293,19 +293,19 @@
 		</data>
 		<key>Headers/LKADSDKApi.h</key>
 		<data>
-		FJFT3cIhLrXG1F4gLaV7JxQ1q0w=
+		P67oJ5v08XRxiTH3T2ACDYllJsQ=
 		</data>
 		<key>Headers/LKADSDKCallbackDelegate.h</key>
 		<data>
-		DDNUToo0X3A15qr9lz+//JQ/s5M=
+		K+IpP8m8UXsvwaSTWroZ2Chch0Q=
 		</data>
 		<key>Headers/LKADSDKProtocols.h</key>
 		<data>
-		CcMhWD31V6vJcHnv+wPN0XfK5Iw=
+		tOqQskDHvJxiFrEo4roUpa1EqE4=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		5o2oPZf77sH42RnzyFFSc+kT3GA=
+		d8sGPBopxCEw7GJsmPafjO/SJno=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1072,33 +1072,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FJFT3cIhLrXG1F4gLaV7JxQ1q0w=
+			P67oJ5v08XRxiTH3T2ACDYllJsQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			6Kd7SFrrV423e1gt0yt/3yKvpoQ0PI2jIrLoqCLRgwc=
+			xcNFltd5FKtVMSKpOgISPZKmudvSHW5J+m4d8SX1ARM=
 			</data>
 		</dict>
 		<key>Headers/LKADSDKCallbackDelegate.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DDNUToo0X3A15qr9lz+//JQ/s5M=
+			K+IpP8m8UXsvwaSTWroZ2Chch0Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			no297X0VnWmrZkTkc+8+zpwnE60RZaCAN66PeLJIszs=
+			5VEX6LEJ2c0DZsUqKzLcu0KJR5TvY96RAXSy0cJOWeE=
 			</data>
 		</dict>
 		<key>Headers/LKADSDKProtocols.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CcMhWD31V6vJcHnv+wPN0XfK5Iw=
+			tOqQskDHvJxiFrEo4roUpa1EqE4=
 			</data>
 			<key>hash2</key>
 			<data>
-			k2KK2pi3b41JEDnMm5v+fcsHHW016d43uxARPanYUko=
+			EFiV7cJqEFF6A9eb2aDSzY027iHwUlFO6mal1WXISUU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
